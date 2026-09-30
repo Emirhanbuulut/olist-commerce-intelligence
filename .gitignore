@@ -1,0 +1,11 @@
+.venv/
+.kagglehub/
+__pycache__/
+*.py[cod]
+.DS_Store
+.streamlit/secrets.toml
+data/raw/*.csv
+data/raw/*.zip
+data/processed/model_test_predictions.csv
+*.duckdb
+.ipynb_checkpoints/

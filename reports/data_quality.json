@@ -1,0 +1,63 @@
+{
+  "tables": {
+    "customers": {
+      "rows": 99441,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "geolocation": {
+      "rows": 1000163,
+      "columns": 5,
+      "duplicate_rows": 261831,
+      "missing_cells": 0
+    },
+    "items": {
+      "rows": 112650,
+      "columns": 7,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "payments": {
+      "rows": 103886,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "reviews": {
+      "rows": 99224,
+      "columns": 7,
+      "duplicate_rows": 0,
+      "missing_cells": 145903
+    },
+    "orders": {
+      "rows": 99441,
+      "columns": 8,
+      "duplicate_rows": 0,
+      "missing_cells": 4908
+    },
+    "products": {
+      "rows": 32951,
+      "columns": 9,
+      "duplicate_rows": 0,
+      "missing_cells": 2448
+    },
+    "sellers": {
+      "rows": 3095,
+      "columns": 4,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    },
+    "translation": {
+      "rows": 71,
+      "columns": 2,
+      "duplicate_rows": 0,
+      "missing_cells": 0
+    }
+  },
+  "orders_total": 99441,
+  "delivered_orders": 96478,
+  "late_rate": 0.08112366538820359,
+  "date_min": "2016-09-04 21:15:19",
+  "date_max": "2018-10-17 17:30:18"
+}

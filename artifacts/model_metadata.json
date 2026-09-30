@@ -1,0 +1,71 @@
+{
+  "target": "Delivery after the promised date",
+  "positive_rate_train": 0.08817508033585571,
+  "positive_rate_test": 0.05291800559759511,
+  "train_rows": 77176,
+  "test_rows": 19294,
+  "train_end": "2018-05-26 18:16:57",
+  "test_start": "2018-05-26 18:18:03",
+  "selected_model": "logistic_regression",
+  "selected_threshold": 0.6200000000000001,
+  "validation": {
+    "dummy": {
+      "pr_auc": 0.08104431199792693,
+      "roc_auc": 0.5,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "threshold": 0.5
+    },
+    "logistic_regression": {
+      "pr_auc": 0.19659805905764008,
+      "roc_auc": 0.7325141649105813,
+      "precision": 0.20176586003924132,
+      "recall": 0.49320543565147884,
+      "f1": 0.28637734973311674,
+      "threshold": 0.6200000000000001
+    },
+    "random_forest": {
+      "pr_auc": 0.19078747562701726,
+      "roc_auc": 0.7003801259309789,
+      "precision": 0.20875850340136054,
+      "recall": 0.39248601119104715,
+      "f1": 0.27255065223424924,
+      "threshold": 0.44
+    }
+  },
+  "test": {
+    "pr_auc": 0.11741511823730094,
+    "roc_auc": 0.7214692411581385,
+    "precision": 0.10429447852760736,
+    "recall": 0.4495592556317336,
+    "f1": 0.16931021763187015
+  },
+  "baseline_test": {
+    "pr_auc": 0.05291800559759511,
+    "roc_auc": 0.5,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "features": [
+    "item_count",
+    "unique_product_count",
+    "seller_count",
+    "total_price",
+    "total_freight",
+    "avg_product_weight_g",
+    "avg_product_volume_cm3",
+    "avg_distance_km",
+    "payment_installments",
+    "estimated_days",
+    "purchase_month",
+    "purchase_weekday",
+    "purchase_hour",
+    "customer_state",
+    "primary_category",
+    "primary_seller_state",
+    "primary_payment_type"
+  ],
+  "leakage_policy": "Only fields known at purchase or checkout are used; delivery and review outcomes are excluded."
+}
